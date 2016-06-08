@@ -56,9 +56,7 @@ include('header.php');
 	  <div class="form-group">
 	    <label for="direccion" class="col-sm-2 control-label"><i class="icon-location"></i></label>
 	    <div class="col-sm-10">
-	    	<textarea form="add" id="direccion" name="direccion" placeholder="direccion" class="form-control" rows="3">
-	    		<?php echo $data["direccion"]?>
-	    	</textarea>
+	    	<textarea form="add" id="direccion" name="direccion" class="form-control" rows="3"><?php echo $data["direccion"]?></textarea>
 	    </div>
 	  </div>
 
